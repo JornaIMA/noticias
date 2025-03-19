@@ -112,10 +112,11 @@ main > div > h2 {
     background-color: lightgray;
     height: 300px;
     border-radius: 10px;
-    text-indent: 10px;
     padding: 10px;
 }
-
+p{
+    text-indent: 10px;
+}
 .imagem {
     height: 300px;
     flex: 0 0 10%;
@@ -219,6 +220,22 @@ footer > div > a {
     main {
         margin: 10px;
     }
+    .festas{
+        display: block;
+        height: 530px;
+        padding: 0px;
+    }
+    .foto{
+        width: 100%;
+    }
+    .fotos{
+        width: 100%;
+        float: none;
+        margin: 0px;
+    }
+    .imagem{
+        width: 100%;
+    }
     .entrevistas{
         background-color: lightgray;
         border-radius: 10px;
@@ -240,10 +257,22 @@ footer > div > a {
     main {
         margin: 10px;
     }
-
+    .festas{
+        display: block;
+        height: 500px;
+        padding: 0px;
+    }
+    .foto{
+        width: 100%;
+    }
+    .imagem{
+        width: 100%;
+        margin: 0px;
+        padding: 0px;
+    }
     .fotos {
         float: none;
-        width: 100%;
+        width: 100vh;
         height: 250px;
         margin: 0;
     }
