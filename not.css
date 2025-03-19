@@ -1,0 +1,145 @@
+@charset "UTF-8";
+body{
+    margin: 0px;
+}
+header{
+    background-color: #1BA67E;
+}
+header > h1{
+    text-align: center;
+    font-family: Atma, Arial, Helvetica, sans-serif;
+    font-size: 3em;
+    margin: 0px;
+    padding: 10px;
+}
+.atma-light {
+    font-family: "Atma", system-ui;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .atma-regular {
+    font-family: "Atma", system-ui;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .atma-medium {
+    font-family: "Atma", system-ui;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  .atma-semibold {
+    font-family: "Atma", system-ui;
+    font-weight: 600;
+    font-style: normal;
+  }
+  
+  .atma-bold {
+    font-family: "Atma", system-ui;
+    font-weight: 700;
+    font-style: normal;
+  }
+#icon{
+    padding-left: 30px;
+    padding-right: 10px;
+}
+header > a > h2{
+    display: inline;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header > a{
+    color: #ffff;
+    text-decoration: none;
+}
+header > a:visited{
+    text-decoration: none;
+}
+main{
+    margin-left: 500px;
+    margin-right: 500px;
+}
+main > article > h2{
+    font-family: atma, arial;
+    text-align: center;
+}
+main > article > p{
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: justify;
+    text-indent: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+main > article > img{
+    margin: 10px;
+    float: right;
+    height: 300px;
+    width: 50%;
+    border-radius: 10px;
+}
+ft_va{
+    display: block;
+    margin-bottom: 20px;
+}
+.video{
+    display: flex;
+    justify-content: center;
+}
+main > article > div > iframe{
+    border-radius: 10px;
+
+}
+.siga{
+    display: flex;
+    float: right;
+    padding-top: 50px;
+}
+footer{
+    background-color: #1BA67E;
+    margin: 0px;
+    padding: 10px;
+    margin-top: 50px;
+}
+footer>h2{
+    font-family: Atma, Arial, Helvetica, sans-serif;
+    font-size: 2.5em;
+    display: inline-block;
+    padding-left: 30px;
+    padding-top: 0;
+    padding-bottom: 0px;
+}
+footer> p{
+    display: inline-block;
+    text-align: right;
+    font-family: Arial, Helvetica, sans-serif;
+}
+footer > div > a{
+    padding-left: 5px;
+}
+.logo{
+    width: 35px;
+    margin-bottom: -12px;
+}
+.logo{
+    width: 35px;
+    margin-bottom: -12px;
+}
+@media(max-width: 700px){
+    main{
+        margin: 20px;
+    }
+    main > article > img{
+        width: 100%;
+        height: 270px;
+        float: none;
+        
+    }
+}
+@media(min-width:700px) and (max-width: 1400px){
+    main{
+        margin-left: 200px;
+        margin-right: 200px;
+    }
+}
+    

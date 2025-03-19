@@ -1,0 +1,311 @@
+@charset "UTF-8";
+
+body {
+    margin: 0;
+    font-family: Rubik;
+}
+
+header {
+    background-color: #1BA67E;
+}
+
+h1 {
+    text-align: center;
+    font-size: 3em;
+    font-family: Atma, Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 10px;
+}
+
+#icon {
+    padding: 0 10px 20px 30px;
+}
+
+header > a > h2 {
+    display: inline;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header > a {
+    color: #ffff;
+    text-decoration: none;
+}
+
+header > a:visited {
+    text-decoration: none;
+}
+
+main > h2 {
+    text-align: center;
+    font-size: 30px;
+    font-family: Atma;
+}
+
+main > p {
+    font-family: Rubik, Arial, Helvetica, sans-serif;
+    text-indent: 20px;
+    text-align: justify;
+    margin-bottom: 25px;
+}
+
+main > h3 {
+    font-size: 30px;
+}
+
+main > a {
+    color: black;
+}
+.txeve {
+    padding-left: 5px;
+}
+
+.titulo {
+    text-align: center;
+}
+ul {
+    padding: 0;
+    margin: 0;
+}
+.entrevistas{
+    background-color: lightgray;
+    border-radius: 10px;
+    margin-bottom: 50px;
+    height: 500px;
+}
+video{
+    border-radius: 10px;
+    height: 100%;
+    float: left;
+    margin-right: 3%;
+}
+txentrevista{
+    text-indent: 10px;
+}
+ttentrevista{
+    text-align: center;
+    margin-top: 50px;
+    
+}
+main > div > ul > li {
+    text-align: center;
+    list-style: none;
+    font-family: Rubik, Arial, Helvetica, sans-serif;
+    padding-bottom: 7px;
+}
+
+main > div > a {
+    color: black;
+    text-decoration: none;
+}
+
+main > div > a:hover {
+    color: black;
+}
+
+main > div > h2 {
+    text-align: center;
+}
+
+.festas {
+    display: flex;
+    align-items: stretch;
+    background-color: lightgray;
+    height: 300px;
+    border-radius: 10px;
+    text-indent: 10px;
+    padding: 10px;
+}
+
+.imagem {
+    height: 300px;
+    flex: 0 0 10%;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-right: 10px;
+}
+
+.foto {
+    border-radius: 10px;
+    margin: 30px 0 0 0;
+    height: 300px;
+    width: 450px;
+}
+
+.fotos {
+    border-radius: 10px;
+    height: 300px;
+    width: 450px;
+    margin: 0 20px;
+    float: left;
+}
+
+#ft_irmas {
+    float: right;
+}
+
+.lista {
+    background-color: #1BA67E;
+    padding: 10px 0;
+    width: 300px;
+    border-radius: 50px;
+}
+
+#insta {
+    padding-bottom: 10px;
+}
+
+footer > a {
+    color: white;
+    text-decoration: none;
+    font-size: 1em;
+}
+
+footer > a:visited {
+    color: white;
+}
+
+main {
+    margin: 0 100px;
+}
+
+.site {
+    background-color: black;
+    color: white;
+    text-align: center;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.siga {
+    margin-top: 40px;
+    display: flex;
+    float: right;
+}
+
+footer {
+    background-color: #1BA67E;
+    margin: 0;
+    padding: 0;
+    margin-top: 50px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+footer > h2 {
+    font-size: 2.5em;
+    display: inline-block;
+    padding-left: 20px;
+}
+
+footer > p {
+    display: inline-block;
+    text-align: right;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+footer > div > a {
+    padding-left: 5px;
+}
+
+#youtube {
+    padding-right: 10px;
+}
+
+.logo {
+    width: 35px;
+}
+@media (max-width: 430px){
+    main {
+        margin: 10px;
+    }
+    .entrevistas{
+        background-color: lightgray;
+        border-radius: 10px;
+        height: 760px;
+    
+    }
+    video{
+        margin: 0px;
+        border-radius: 10px;
+        width: 100%;
+        height: 500px;
+        float: none;
+    }
+    txentrevista{
+        text-indent: 10px;
+    }
+}
+@media (min-width: 430px) and (max-width: 630px) {
+    main {
+        margin: 10px;
+    }
+
+    .fotos {
+        float: none;
+        width: 100%;
+        height: 250px;
+        margin: 0;
+    }
+    .entrevistas{
+        background-color: lightgray;
+        border-radius: 10px;
+        height: 750px;
+    }
+    video{
+        margin: 0px;
+        border-radius: 10px;
+        width: 100%;
+        height: 550px;
+        float: none;
+    }
+    txentrevista{
+        text-indent: 10px;
+    }
+}
+
+   
+
+@media (min-width: 630px) and (max-width: 950px) {
+    .festas {
+        padding: 0;
+        margin: 0;
+        height: 500px;
+
+        display: block;
+    }
+    .entrevistas{
+        background-color: lightgray;
+        border-radius: 10px;
+        height: 730px;
+    }
+    video{
+        margin: 0px;
+        border-radius: 10px;
+        width: 100%;
+        height: 550px;
+        float: none;
+    }
+    txentrevista{
+        text-indent: 10px;
+    }
+
+    .imagem {
+        margin: 0;
+        flex: 0 0 100%;
+        width: 100%;
+        height: 270px;
+    }
+
+    .foto {
+        width: 100%;
+        object-fit: cover;
+        padding: 0;
+        margin-top: 8px;
+    }
+
+    main > div > a > p {
+        padding-left: 10px;
+        text-indent: 10px;
+    }
+}
